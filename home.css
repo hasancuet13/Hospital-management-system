@@ -1,0 +1,147 @@
+p {border-style: none;}
+
+p.none {border-bottom-style: none;}
+p.dotted {
+	border-bottom-style: dotted;
+	border-top-style: none;
+}
+p.dashed {border-bottom-style: dashed;}
+p.solid {border-bottom-style: solid;}
+p.double {border-bottom-style: double;}
+p.groove {border-bottom-style: groove;}
+p.ridge {border-bottom-style: ridge;}
+p.inset {border-bottom-style: inset;}
+p.outset {border-bottom-style: outset;margin:10px 878px 10px -80px;}
+
+.section_two{
+	margin:10px 200px 5px 120px;
+    background-color: white;  
+}
+.three_sub
+{
+	margin:10px 100px 10px 0px;
+	text-align: left;
+	color:#008080
+}
+.coloum {
+-webkit-column-count: 3; /* Chrome, Safari, Opera */
+  -moz-column-count: 3; /* Firefox */
+  column-count: 3;
+}
+.search{
+	float: right;
+	width: 200px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('search.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+	margin-top:10px;
+	margin-right:10px;
+    padding: 8px 20px 8px 40px;
+	
+}
+.main_menu{
+	text-align:center;
+	margin:10px 200px 5px 120px;
+    background-color: white;
+	padding: 10px 0px 5px 0px;
+	text-decoration: none;
+}
+.main_menu ul{
+margin:0;
+padding:0;
+list-style:none;
+}
+
+.main_menu ul li{
+float:left;
+border-right:1 px solid #E5E5E5;
+margin:0 5px 0px 5px;
+}
+.main_menu a{
+	display:block;
+	color:#008080;
+	text-decoration:none;
+}
+	
+.main_menu a:hover{
+	background:black;
+}
+
+.slider img{width:960px; height:250px;}
+.content{overflow:hidden;margin-top:30 px;}
+.content h2{margin-bottom:15px;}
+.sidebar{float:left;width:330px;background:orange;overflow:hidden;}
+h4{background:#00a38c;color:white;padding:5px;text-decoration:arial;margin-bottom:5px solid black; text-align: center;}
+.sidebar ul{margin:0;padding:0;list-style:none;}
+.sidebar ul li{padding:5px;border-bottom:1 px solid #E5E5E5;}
+.sidebar ul li a{display:block;color:white;padding:10px 20px;text-decoration:none;}
+.sidebar ul li a:hover{background:red;}
+
+.menu {
+	margin:auto;
+    background-color: white;
+    white-space: nowrap;
+}
+.menu a {
+    display: inline-block;
+    color: #008080;
+    text-align: center;
+    padding: 10px 0px 5px 0px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: #D1D0CE;
+	
+}
+.menu_two{
+	margin-left:1px;
+	margin-right:5px;
+	text-align:center;
+    background-color: black;
+	padding: 10px 0px 5px 0px;
+	text-decoration: none;
+}
+.menu_two a {
+	margin-right:30px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+	
+}
+.menu_two a:hover {
+    background-color: #00a38c;
+	
+}
+code {
+  background: #2db34a;
+  border-radius: 6px;
+  color: #fff;
+  display: block;
+  font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+  padding: 24px 15px;
+  text-align: center;
+}
+header.admin{
+    p
+    color: white;
+    background-color: red;
+    clear: left;
+    text-align: center;
+	width: 100%;
+}
+footer{
+    margin:-2px 200px 5px 120px;
+    padding: 25px;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+}
